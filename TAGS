@@ -1,0 +1,38 @@
+
+/home/cfoster/Documents/code/java/BST/BST.java,1678
+public class BST<E extends Comparable<E>> implements Iterable<E> {BST7,147
+	public static void main(String[] args) {main10,279
+	private class Node {Node48,1492
+		E element;element49,1514
+		Node left;left50,1527
+		Node right;right51,1540
+	private Node root;root54,1558
+	private int size;size55,1578
+	public BST() {BST57,1598
+	public boolean equals(Object obj) {equals63,1656
+	public LinkedList<E> toList() {toList81,1983
+	public LinkedList<E> toList(Node n) {toList86,2066
+	public boolean contains(E element) {contains99,2333
+	public boolean contains(E element, Node n) {contains103,2409
+	public int leafamount() {leafamount114,2674
+	public int leafamount(Node n) {leafamount118,2732
+	public int height() {height127,2910
+	public int height(Node n) {height131,2960
+	public String toString() {toString145,3188
+	public String toString(Node n) {toString151,3311
+	public void print() {print162,3505
+	private void print(Node n) {print167,3571
+	public void printpreorder() {printpreorder175,3703
+	private void printpreorder(Node n) {printpreorder180,3785
+	public int size() {size188,3942
+	public void add(E element) {add192,3982
+	public void printwloop() {printwloop217,4453
+	private class TreeIterator implements Iterator<E> {TreeIterator236,4825
+		private Node w;w238,4879
+		private Stack<Node> s = new Stack<Node>();s239,4897
+		public TreeIterator(BST b) {TreeIterator241,4943
+		public boolean hasNext() {hasNext247,5020
+		public E next() {next252,5090
+	public Iterator<E> iterator() {iterator267,5331
+	public Object[] toArray() {toArray271,5401
+	private int toArray(Object[] a, int i, Node n) {toArray277,5502
